@@ -7,9 +7,10 @@
 // @match        *://*/*
 // @icon         https://avatars.githubusercontent.com/u/117503464?v=4
 // @grant        none
+// @updateURL    https://webpage-commands.vercel.app/webpage_commands.js
 // ==/UserScript==
 
-(function() {
+(() => {
     'use strict';
 
     let commandsEnabled = false;
